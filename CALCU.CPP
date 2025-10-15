@@ -29,7 +29,32 @@ int main()
     cout << "Choose (1/2/3/4) : ";
     cin >> input;
 
-    
-
+    if (input == 1)
+    {
+        cout << "Masukan angka pertama : "; cin >> x;
+        cout << "Masukan angka kedua : "; cin >> y;
+        cout << x << " + " << y << " = " << add(x, y);
+    }
+    else if (input == 2)
+    {
+        cout << "Masukan angka pertama : "; cin >> x;
+        cout << "Masukan angka kedua : "; cin >> y;
+        cout << x << " - " << y << " = " << subtract(x, y);
+    }
+    else if (input == 3)
+    {
+        cout << "Masukan angka pertama : "; cin >> x;
+        cout << "Masukan angka kedua : "; cin >> y;
+        cout << x << " * " << y << " = " << multiply(x, y);
+    }
+    else if (input == 4)
+    {
+        cout << "Masukan angka pertama : "; cin >> x;
+        cout << "Masukan angka kedua : "; cin >> y;
+        cout << x << " / " << y << " = " << devide(x, y);
+    }
+    else{
+        cout << "Tidak ada opsi itu cuy !";
+    }
     return 0;
 }
