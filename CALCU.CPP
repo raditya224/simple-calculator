@@ -29,7 +29,7 @@ int main()
     cout << "Choose (1/2/3/4) : ";
     cin >> input;
 
-    cout << "Janica";
+    
 
     return 0;
 }
